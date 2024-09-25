@@ -14,7 +14,6 @@ const newQuoteButton = document.getElementById('new-quote')
 newQuoteButton.addEventListener('click',() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     quoteElement.textContent=quotes[randomIndex]
-
 }
 )
 
